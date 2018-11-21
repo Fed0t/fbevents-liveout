@@ -1,0 +1,21 @@
+{
+    "name": "sergheifdt/fbevents-liveout",
+    "description": "fb-events extract from fb",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fed0t",
+            "email": "fedot@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "php-http/guzzle6-adapter": "^2.0@dev",
+        "facebook/graph-sdk": "5.*",
+        "phpunit/phpunit": "^8.0@dev"
+    },
+    "autoload": {
+        "psr-4": {"Fed0t\\LiveoutEvents\\": "src/"}
+    }
+}
